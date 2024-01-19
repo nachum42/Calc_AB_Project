@@ -1,0 +1,30 @@
+body{
+    background-color: #EEF5FF;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 40px;
+}
+
+.main-heading{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5rem;
+    line-height: 1.5;
+    font-weight: 300;
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+
+.light-section{
+    background-color: #EEF5FF;
+    color: #176B87;
+}
+
+.dark-section{
+    background-color: #86B6F6;
+    color: #000;
+}
