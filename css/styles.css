@@ -1,17 +1,27 @@
 body{
     background-color: #EEF5FF;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+h1 {
     font-size: 3rem;
     padding-bottom: 40px;
 }
 
+h3 {
+    padding-top: 30px;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+
 .main-heading{
-    font-family: 'Quicksand', sans-serif;
     font-size: 5rem;
     line-height: 1.5;
     font-weight: 300;
@@ -20,11 +30,27 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .light-section{
-    background-color: #EEF5FF;
-    color: #176B87;
+    background-color: #B4D4FF;
+    color: #000;
 }
 
 .dark-section{
     background-color: #86B6F6;
-    color: #000;
+    color: #EEF5FF;
+}
+
+.btn{
+    margin-bottom: 40px;
+}
+
+nav {
+    background-color: #176B87;
+}
+
+.navbar-brand, .nav-link{
+    color: #EEF5FF;
+}
+
+.col-12{
+    margin-bottom: 40px;
 }
